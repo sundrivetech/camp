@@ -4,7 +4,7 @@ type ButtonProps = {
   type: "button" | "submit";
   title: string;
   icon?: string;
-  full?: string;
+  full?: boolean;
   variant: string;
 };
 
